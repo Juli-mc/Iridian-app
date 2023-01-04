@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.container-fluid p-5 m-5
+border border-l-8 border-2 border-blue-500 shadow-xl rounded-lg bg-gray-100 w-50 h-50{
+  height: 50%;
+  width: 50%;
+}
+
+
+.bets{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+}
+
+.bets-player{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  color: black;
+  cursor: pointer;
+}
+
+b:hover{
+    transition: 0.5s;
+    font-size: 35px;
+    color: #024794;
+}
+
+.d:hover{
+  transition: 0.5s;
+  font-size: 35px;
+  color: #024794;
+}
+
+.c:hover{
+  transition: 0.5s;
+  font-size: 35px;
+  color: #024794;
+}
+
+.bet{
+  cursor: pointer;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: gray;
+  transform-origin: 0%;
+  z-index: 1;
+}
